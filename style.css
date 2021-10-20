@@ -83,8 +83,11 @@ ul{
     #linkContainer{
         box-shadow: none;
     }
-    #web, #media{
+    #media{
         padding-top: 40px;
+    }
+    #web{
+        padding-top: 60px;
     }
 }
 .row{
