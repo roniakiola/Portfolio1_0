@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--NAVBAR START-->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark text-center">
+            <a href="index.html" class="navbar-brand nav-link">
+                <strong>RONI AKIOLA</strong>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#homeCarousel">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#web">Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#media">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="https://github.com/roniakiola?tab=repositories"
+                            target="_blank"
+                            >
+                            <span class="fab fa-github fa-lg"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--NAVBAR END-->
+
+    <!--CAROUSEL (Home) START-->
+    <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000">
+        <div class="carousel-inner">
+            <!--ITEM 1-->
+            <div class="carousel-item active">
+                <video 
+                    src="misc/00060.mp4"
+                    style="min-height: 100%; min-width: 100%;"
+                    muted
+                    loop
+                    autoplay
+                    playsinline
+                    >
+                </video>
+                <div class="mask">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div id="maskBox" class="text-white text-center">
+                            <img id="profilePic" src="img/profile.png" alt="person">
+                            <h1 class="mb-3">Welcome to my Portfolio</h1>
+                            <h3 class="mb-4">Click for exercises</h5>
+                            <a href="#web" class="btn btn-outline-light btn-lg m-2" role="button">Web</a>
+                            <a href="#media" class="btn btn-outline-light btn-lg m-2" role="button">Media</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--ITEM 2-->
+            <div class="carousel-item">
+                <video 
+                    src="misc/00088.mp4"
+                    style="min-height: 100%; min-width: 100%;"
+                    muted
+                    loop
+                    autoplay
+                    playsinline
+                    >
+                </video>
+                <div class="mask">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div id="maskBox" class="text-white text-center">
+                            <img id="profilePic" src="img/profile.png" alt="person">
+                            <h1 class="mb-3">Welcome to my Portfolio</h1>
+                            <h3 class="mb-4">Click for exercises</h5>
+                            <a href="#web" class="btn btn-outline-light btn-lg m-2" role="button">Web</a>
+                            <a href="#media" class="btn btn-outline-light btn-lg m-2" role="button">Media</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CAROUSEL (Home) END-->
+
+    <!--MAIN CONTENT-->
+    <main>
+        <!--WEB SECTION-->
+        <section id="web" class="text-center d-flex flex-column justify-content-around text-white">
+            <h1 class="section-header py-5">Web</h1>
+            <h3 class="text-left">Web exercises made during Basics of Digital Media course</h3>
+            <div id="linkContainer" class="container text-white">
+                <div class="row">
+                    <h2 class="col-12">jQuery-exercises</h2>
+                    <div class="col-12">
+
+                        <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/jquery1-3/jqbasiclab1.html" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Jquery 1-3</a>
+
+                        <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/jquery4/ex4.html" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Jquery 4</a>
+
+                        <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/jquery5/animate.html" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank"> Jquery 5</a>
+
+                        <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/jquery_ajax/" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Jquery-Ajax</a>
+
+                    </div>
+                </div>
+            </div>
+            <div id="linkContainer" class="container text-white">
+                <div class="row">
+                        <h2 class="col-12">Bootstrap-exercises</h2>
+                        <div class="col-12">
+
+                            <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/bootstrap1/" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Bootstrap 1</a>
+
+                            <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/bootstrap2/" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Bootstrap 2</a>
+
+                            <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/bootstrap_scss/" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">SCSS</a>
+
+                            <a href="https://users.metropolia.fi/~roniak/DigMedAlkeet/wordpress_harjoitus/" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Wordpress</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--WEB END-->
+
+        <!--MEDIA SECTION-->
+        <section id="media" class="text-center text-white">
+            <h1 class="section-header py-5">Media</h1>
+            <!--CARD CONTAINER START-->
+            <div id="cardContainer" class="container-fluid p-0">
+                <div class="row">
+
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img src="img/grid1.JPG" alt="">
+                            <div class="card-text">
+                                <a class="btn btn-outline-light btn-lg video-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-src="https://www.youtube.com/embed/3BjMX4iXTdI">
+                                    <h3>Videosprintti I</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img src="img/grid2.JPG" alt="">
+                            <div class="card-text">
+                                <a class="btn btn-outline-light btn-lg video-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-src="https://www.youtube.com/embed/TXAjSn-3ntc">
+                                    <h3>Videosprintti II</h3>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img src="img/grid3.JPG" alt="">
+                            <div class="card-text">
+                                <a class="btn btn-outline-light btn-lg video-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-src="https://www.youtube.com/embed/AajU51Uzr-I">
+                                    <h3>After Effects</h3>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img src="img/grid4.JPG" alt="">
+                            <div class="card-text">
+                                <a class="btn btn-outline-light btn-lg video-btn" data-bs-toggle="modal" data-bs-target="#myModal" data-src="https://www.youtube.com/embed/vYgXHk879gc">
+                                    <h3>Moniraitaääni</h3>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img src="img/grid5.JPG" alt="">
+                            <div class="card-text">
+                                <a class="btn btn-outline-light btn-lg modal-btn" data-bs-toggle="modal" data-bs-target="#myModal2" data-src="img/Marvin_martian.png">
+                                    <h3>Illustrator</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img src="img/grid6.JPG" alt="">
+                            <div class="card-text">
+                                <a class="btn btn-outline-light btn-lg modal-btn" data-bs-toggle="modal" data-bs-target="#myModal2" data-src="https://users.metropolia.fi/~roniak/DigMedAlkeet/mikrofonitutkielma/mikkitutkielma/">
+                                    <h3>Mikrofonitutkielma</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--CARD CONTAINER END-->
+
+            <!--MODALS-->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                                <span aria-hidden="true"></span>
+                            </button>
+                            <div class="ratio ratio-16x9">
+                                <iframe id="video" src="" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                                <span aria-hidden="true"></span>
+                            </button>
+                            <div class="ratio ratio-16x9">
+                                <iframe id="othr" src=""></iframe>
+                            </div>
+                            <a id="tabButton" class="btn btn-outline-light btn-lg m-2" role="button" target="_blank">Open in new tab</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--MODALS END-->
+        </section>
+        <!--MEDIA END-->
+    </main>
+    <!--MAIN CONTENT END-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
